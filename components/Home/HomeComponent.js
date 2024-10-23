@@ -1,6 +1,7 @@
 "use client"
 
 import { cardData } from "@/utils/data"
+import Link from "next/link"
 
 import { useState, useEffect } from "react"
 import Select from "react-select"
@@ -77,7 +78,7 @@ const HomeComponent = () => {
 
   return (
     <div className="flex flex-col items-center h-screen p-10">
-      <div className="flex gap-5 mb-10">
+      <div className="flex gap-5 mb-10 self-start">
         {/* Pillar Selection */}
         <div>
           <label className="block mb-2">Pillar</label>
@@ -112,22 +113,31 @@ const HomeComponent = () => {
       </div>
 
       {/* Filtered Cards Display */}
-      <div className="grid grid-cols-1 gap-5">
-        {filteredCards.map((card, index) => (
-          <div key={index} className="border p-5">
-            <h3 className="font-bold text-lg">{card.organizationName}</h3>
-            <p>{card.solution}</p>
-            <p>
-              <strong>Regions Covered:</strong> {card.regionsCovered.join(", ")}
-            </p>
-            <p>
-              <strong>Pillar:</strong> {card.pillar}
-            </p>
-            <p>
-              <strong>Impacts:</strong> {card.impacts}
-            </p>
-          </div>
-        ))}
+      <div className="max-h-screen overflow-y-auto pr-5">
+        <div className="grid grid-cols-1 gap-5">
+          {filteredCards.map((card, index) => (
+            <div key={index} className="border p-5">
+              <Link href={card.link} target="_blank">
+                <h3 className="font-bold text-lg text-blue-500 underline hover:text-blue-700">
+                  {card.organizationName}
+                </h3>
+              </Link>
+              <p>{card.solution}</p>
+              <p>
+                <strong>Regions Covered:</strong>{" "}
+                {card.regionsCovered.join(", ")}
+              </p>
+              <p>
+                <strong>Pillar:</strong> {card.pillar}
+              </p>
+              {card.impacts && (
+                <p>
+                  <strong>Impacts:</strong> {card.impacts}
+                </p>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

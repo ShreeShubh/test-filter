@@ -17,17 +17,19 @@ export const tabData = [
 ]
 
 export const cardData = [
-  {
-    organizationName: "Broadcast.org Media Foundation",
-    internationalPresence: "Global North",
-    regionsCovered: ["Germany"],
-    solution:
-      "Setting up a media archive system to support Social Entrepreneurship globally. The archive will include international news and film coverage of innovative initiatives that solve social challenges in pursuit of attaining the United Nations\u2019 17 Sustainable Development Goals.",
-    pillar: "Education and Capacity Building",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "Broadcast.org Media Foundation",
+  //     link: "",
+  //     internationalPresence: "Global North",
+  //     regionsCovered: ["Germany"],
+  //     solution:
+  //       "Setting up a media archive system to support Social Entrepreneurship globally. The archive will include international news and film coverage of innovative initiatives that solve social challenges in pursuit of attaining the United Nations\u2019 17 Sustainable Development Goals.",
+  //     pillar: "Education and Capacity Building",
+  //     impacts: "",
+  //   },
   {
     organizationName: "Goonj",
+    link: "https://www.linkedin.com/company/goonj/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -37,6 +39,7 @@ export const cardData = [
   },
   {
     organizationName: "Industree Foundation",
+    link: "https://www.industree.co.in/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -46,6 +49,7 @@ export const cardData = [
   },
   {
     organizationName: "Landesa",
+    link: "https://www.landesa.org/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
       "China",
@@ -65,6 +69,7 @@ export const cardData = [
   },
   {
     organizationName: "Macluminium Trading (MTB)",
+    link: "https://www.linkedin.com/company/mtbiofuelsza/about/",
     internationalPresence: "Global South",
     regionsCovered: ["South Africa"],
     solution:
@@ -72,18 +77,20 @@ export const cardData = [
     pillar: "Environmental Sustainability",
     impacts: "",
   },
-  {
-    organizationName: "Wings Balance Initiative (WBI)",
-    internationalPresence: "Global South",
-    regionsCovered: ["United Republic of Tanzania"],
-    solution:
-      "Wings Balance Initiative (WBI) is a Non-Government Organization which formed Dar Es Salaam in order to deal with youth Living and Working on the Street, for the empowerment situation. It was established in March/2020 with the office Ukonga Majumbasita Kipawa Ward. Wings Balance Initiative is to support youth and development in Tanzania. Youth can transform to the nature of development and it benefits both society at large and the individual youth. WBI seek to contribute youth behavior change and development by advocating for youth living and working on the street Tanzania, encouraging partners to integrate youth activities into development programming, and mobilizing youth",
-    pillar: "Social Well-being and Equity",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "Wings Balance Initiative (WBI)",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["United Republic of Tanzania"],
+  //     solution:
+  //       "Wings Balance Initiative (WBI) is a Non-Government Organization which formed Dar Es Salaam in order to deal with youth Living and Working on the Street, for the empowerment situation. It was established in March/2020 with the office Ukonga Majumbasita Kipawa Ward. Wings Balance Initiative is to support youth and development in Tanzania. Youth can transform to the nature of development and it benefits both society at large and the individual youth. WBI seek to contribute youth behavior change and development by advocating for youth living and working on the street Tanzania, encouraging partners to integrate youth activities into development programming, and mobilizing youth",
+  //     pillar: "Social Well-being and Equity",
+  //     impacts: "",
+  //   },
   {
     organizationName:
       "Sustainable Environment and Ecological Development Society (SEEDS)",
+    link: "https://www.seedsindia.org/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -91,78 +98,82 @@ export const cardData = [
     pillar: "Disaster Resilience and Climate Adaptation",
     impacts: "- 75,35,666 Total Lives Touched",
   },
+  //   {
+  //     organizationName: "Empowering Plans Tanzania (EPT)",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["United Republic of Tanzania"],
+  //     solution: "",
+  //     pillar: "",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Compass Education",
+  //     link: "",
+  //     internationalPresence: "Global North & Global South",
+  //     regionsCovered: [
+  //       "Australia",
+  //       " Belgium",
+  //       " Brazil",
+  //       " Cambodia",
+  //       " Canada",
+  //       " China",
+  //       " Colombia",
+  //       " Costa Rica",
+  //       " Cuba",
+  //       " Dominican Republic",
+  //       " France",
+  //       " Germany",
+  //       " Greece",
+  //       " Guatemala",
+  //       " Hong Kong",
+  //       " Special Administrative Region",
+  //       " China",
+  //       " Hungary",
+  //       " India",
+  //       " Israel",
+  //       " Italy",
+  //       " Japan",
+  //       " Lao",
+  //       " People's Democratic Republic Madagascar",
+  //       " Malaysia",
+  //       " Mexico",
+  //       " Morocco",
+  //       " Mozambique",
+  //       " Netherlands",
+  //       " Philippines",
+  //       " Puerto Rica",
+  //       " Qatar",
+  //       " Saudi Arabia",
+  //       " Singapore",
+  //       " South Africa",
+  //       " Spain",
+  //       " Sweden",
+  //       " Thailand",
+  //       " United Arab Emirates",
+  //       " United Kingdom",
+  //       " United States",
+  //       " Venezuela",
+  //       " Vietnam",
+  //     ],
+  //     solution:
+  //       "Compass Education supports transformative systems change in education, providing certified training courses for educators and administrators to develop systems thinking skills and the practical tools for committed action towards sustainability in their classroom, school and community.",
+  //     pillar: "Education and Capacity Building",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Innovability",
+  //     link: "",
+  //     internationalPresence: "Global North",
+  //     regionsCovered: ["Italy"],
+  //     solution:
+  //       "Innovability specializes in producing 100% B2B events, including conferences, networking, exhibitions, end-user meetings, international talks, developer workshops, and awards. They focus on innovative digital technologies across various sectors such as IoT, electronics, telecommunications, and data analytics. Their activities span business development, event creation, marketing, promotion, and networking within the technology community",
+  //     pillar: "Technology and Innovation for Sustainability",
+  //     impacts: "",
+  //   },
   {
-    organizationName: "Empowering Plans Tanzania (EPT)",
-    internationalPresence: "Global South",
-    regionsCovered: ["United Republic of Tanzania"],
-    solution: "",
-    pillar: "",
-    impacts: "",
-  },
-  {
-    organizationName: "Compass Education",
-    internationalPresence: "Global North & Global South",
-    regionsCovered: [
-      "Australia",
-      " Belgium",
-      " Brazil",
-      " Cambodia",
-      " Canada",
-      " China",
-      " Colombia",
-      " Costa Rica",
-      " Cuba",
-      " Dominican Republic",
-      " France",
-      " Germany",
-      " Greece",
-      " Guatemala",
-      " Hong Kong",
-      " Special Administrative Region",
-      " China",
-      " Hungary",
-      " India",
-      " Israel",
-      " Italy",
-      " Japan",
-      " Lao",
-      " People's Democratic Republic Madagascar",
-      " Malaysia",
-      " Mexico",
-      " Morocco",
-      " Mozambique",
-      " Netherlands",
-      " Philippines",
-      " Puerto Rica",
-      " Qatar",
-      " Saudi Arabia",
-      " Singapore",
-      " South Africa",
-      " Spain",
-      " Sweden",
-      " Thailand",
-      " United Arab Emirates",
-      " United Kingdom",
-      " United States",
-      " Venezuela",
-      " Vietnam",
-    ],
-    solution:
-      "Compass Education supports transformative systems change in education, providing certified training courses for educators and administrators to develop systems thinking skills and the practical tools for committed action towards sustainability in their classroom, school and community.",
-    pillar: "Education and Capacity Building",
-    impacts: "",
-  },
-  {
-    organizationName: "Innovability",
-    internationalPresence: "Global North",
-    regionsCovered: ["Italy"],
-    solution:
-      "Innovability specializes in producing 100% B2B events, including conferences, networking, exhibitions, end-user meetings, international talks, developer workshops, and awards. They focus on innovative digital technologies across various sectors such as IoT, electronics, telecommunications, and data analytics. Their activities span business development, event creation, marketing, promotion, and networking within the technology community",
-    pillar: "Technology and Innovation for Sustainability",
-    impacts: "",
-  },
-  {
-    organizationName: "People\u2019s Integrated For Development(PID)",
+    organizationName: "People's Integrated For Development(PID)",
+    link: "",
     internationalPresence: "Global South",
     regionsCovered: ["Uganda"],
     solution:
@@ -172,6 +183,7 @@ export const cardData = [
   },
   {
     organizationName: "Darbar Sahitya Sansada (DSS)",
+    link: "https://dssodisha.org/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -181,6 +193,7 @@ export const cardData = [
   },
   {
     organizationName: "BRAC",
+    link: "https://www.brac.net/",
     internationalPresence: "Global South",
     regionsCovered: [
       "Afghanistan",
@@ -201,6 +214,7 @@ export const cardData = [
   },
   {
     organizationName: "Rimba Makmur Utama",
+    link: "https://rimbamakmurutama.com/",
     internationalPresence: "Global South",
     regionsCovered: ["Indonesia"],
     solution:
@@ -211,6 +225,7 @@ export const cardData = [
   },
   {
     organizationName: "TerreGeneration Solutions",
+    link: "https://www.linkedin.com/company/terregeneration/about/",
     internationalPresence: "Global South",
     regionsCovered: ["India"],
     solution:
@@ -218,54 +233,58 @@ export const cardData = [
     pillar: "Environmental Sustainability",
     impacts: "20 Channels Press Mention",
   },
-  {
-    organizationName: "Haqdarshak Empowerment Solutions Pvt Ltd",
-    internationalPresence: "Global South",
-    regionsCovered: ["India"],
-    solution:
-      "Haqdarshak is a social enterprise that aims to make access to government welfare schemes easy and transparent. Their vision is to improve socio-economic conditions and elevate the standard of living of communities by ensuring \u2018last-mile\u2019 service delivery of government welfare and financial services. They use technology to fill the gap in information by turning government welfare program details into an easy-to-use online library, available in many local languages of India. Create a simple tool that helps people find out quickly if they can get benefits from these programs. Send out trained workers to help people in their communities use this technology and apply for these programs. Give full support to help people from the beginning to the end of their application. Work to bring communities together and give them power. Help women earn money by offering them jobs in this project.",
-    pillar: "Social Well-being and Equity",
-    impacts: "",
-  },
-  {
-    organizationName: "Markevitch Media GmbH \u2013 ikonoTV",
-    internationalPresence: "Global North & Global South",
-    regionsCovered: [
-      "Belgium",
-      " Canada",
-      " France",
-      " Germany",
-      " Israel",
-      " Italy",
-      " Japan",
-      " Korea",
-      " Democratic People's Republic of Lebanon",
-    ],
-    solution:
-      "ikonoTV is a global media platform that aggregates videos and films from the art, architecture, and design community.",
-    pillar: "Education and Capacity Building ",
-    impacts: "",
-  },
-  {
-    organizationName: "Digital Opportunity Trust",
-    internationalPresence: "Global North & Global South",
-    regionsCovered: [
-      "Ethiopia",
-      " Jordan",
-      " Kenya",
-      " Lebanon",
-      " Rwanda",
-      " South Africa",
-      " United Republic of Tanzania",
-      " Uganda",
-    ],
-    solution:
-      "Digital Opportunity Trust (DOT) is an organization that is dedicated to empowering youth and communities through digital skills and entrepreneurship. They focus on empowering youth to become innovators and leaders in their communities. They implement programs that integrate technology into education and promote digital literacy. Supporting social innovation and entrepreneurship, particularly among underrepresented groups.",
-    pillar: "Education and Capacity Building",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "Haqdarshak Empowerment Solutions Pvt Ltd",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["India"],
+  //     solution:
+  //       "Haqdarshak is a social enterprise that aims to make access to government welfare schemes easy and transparent. Their vision is to improve socio-economic conditions and elevate the standard of living of communities by ensuring \u2018last-mile\u2019 service delivery of government welfare and financial services. They use technology to fill the gap in information by turning government welfare program details into an easy-to-use online library, available in many local languages of India. Create a simple tool that helps people find out quickly if they can get benefits from these programs. Send out trained workers to help people in their communities use this technology and apply for these programs. Give full support to help people from the beginning to the end of their application. Work to bring communities together and give them power. Help women earn money by offering them jobs in this project.",
+  //     pillar: "Social Well-being and Equity",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Markevitch Media GmbH \u2013 ikonoTV",
+  //     link: "",
+  //     internationalPresence: "Global North & Global South",
+  //     regionsCovered: [
+  //       "Belgium",
+  //       " Canada",
+  //       " France",
+  //       " Germany",
+  //       " Israel",
+  //       " Italy",
+  //       " Japan",
+  //       " Korea",
+  //       " Democratic People's Republic of Lebanon",
+  //     ],
+  //     solution:
+  //       "ikonoTV is a global media platform that aggregates videos and films from the art, architecture, and design community.",
+  //     pillar: "Education and Capacity Building ",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Digital Opportunity Trust",
+  //     link: "",
+  //     internationalPresence: "Global North & Global South",
+  //     regionsCovered: [
+  //       "Ethiopia",
+  //       " Jordan",
+  //       " Kenya",
+  //       " Lebanon",
+  //       " Rwanda",
+  //       " South Africa",
+  //       " United Republic of Tanzania",
+  //       " Uganda",
+  //     ],
+  //     solution:
+  //       "Digital Opportunity Trust (DOT) is an organization that is dedicated to empowering youth and communities through digital skills and entrepreneurship. They focus on empowering youth to become innovators and leaders in their communities. They implement programs that integrate technology into education and promote digital literacy. Supporting social innovation and entrepreneurship, particularly among underrepresented groups.",
+  //     pillar: "Education and Capacity Building",
+  //     impacts: "",
+  //   },
   {
     organizationName: "TrueFootprint",
+    link: "https://www.truefootprint.com/",
     internationalPresence: "Global North",
     regionsCovered: ["United Kingdom"],
     solution:
@@ -275,6 +294,7 @@ export const cardData = [
   },
   {
     organizationName: "Swasti",
+    link: "https://swasti.org/",
     internationalPresence: "Global South",
     regionsCovered: [
       "Nepal",
@@ -294,6 +314,7 @@ export const cardData = [
   },
   {
     organizationName: "Greenhope",
+    link: "",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
       "Myanmar",
@@ -319,6 +340,7 @@ export const cardData = [
   },
   {
     organizationName: "Climate Action Platform for Africa (CAP-A)",
+    link: "https://www.greenhope.co/",
     internationalPresence: "Global South",
     regionsCovered: ["Kenya"],
     solution:
@@ -328,6 +350,7 @@ export const cardData = [
   },
   {
     organizationName: "Carbon Impact Capital (CIC)",
+    link: "https://www.carbonimpact.capital/",
     internationalPresence: "Global South",
     regionsCovered: [
       "Bangladesh",
@@ -365,6 +388,7 @@ export const cardData = [
   },
   {
     organizationName: "South Pole",
+    link: "https://www.southpole.com/",
     internationalPresence: "Global North",
     regionsCovered: ["Switzerland"],
     solution:
@@ -374,6 +398,7 @@ export const cardData = [
   },
   {
     organizationName: "3BL Associates",
+    link: "https://www.3blassociates.com/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
       "Bahrain",
@@ -391,96 +416,99 @@ export const cardData = [
     pillar: "Social Well-being and Equity",
     impacts: "",
   },
-  {
-    organizationName:
-      "Community Empowerment and Development Association (CEDA)",
-    internationalPresence: "Global South",
-    regionsCovered: [
-      "Botswana",
-      " Malawi",
-      " Namibia",
-      " South Africa",
-      " Zambia",
-    ],
-    solution:
-      "Community Empowerment and Development Association (CEDA) is a welfare organization which focus on poverty reduction, capacity building, paralegal services and economic empowerment as well as reduction of HIV/AIDS, socio-economic research, advocacy and networking.",
-    pillar: "Social Well-being and Equity",
-    impacts: "",
-  },
-  {
-    organizationName: "Common Goal (Formerly Street Football World)",
-    internationalPresence: "Global North & Global South",
-    regionsCovered: [
-      "Germany",
-      " United States",
-      " Ethiopia",
-      " Cape Verde",
-      " Malawi",
-      " South Sudan",
-      " Spain",
-      " Tunisia",
-      " Greece",
-      " Jordan",
-      " Rwanda",
-      " Nigeria",
-      " Ghana",
-      " Israel",
-      " Argentina",
-      " United Kingdom",
-      " Cameroon",
-      " Ireland",
-      " Serbia",
-      " Denmark",
-      " Bosnia",
-      " and Herzegovina",
-      " Italy",
-      " Botswana",
-      " Montenegro",
-      " Palestine",
-      " Poland",
-      " South Africa",
-      " Colombia",
-      " Australia",
-      " Romania",
-      " United Republic of Tanzania",
-      " Austria",
-      " Brazil",
-      " Burkina",
-      " Faso",
-      " Burundi",
-      " Cambodia",
-      " Canada",
-      " Congo",
-      " Costa Rica",
-      " Czech Republic",
-      " France",
-      " Georgia",
-      " Hungary",
-      " Iraq",
-      " Kenya",
-      " Kosovo",
-      " Lebanon",
-      " Lesotho",
-      " Liberia",
-      " Portugal",
-      " Mali",
-      " Mexico",
-      " Moldova",
-      " Mozambique",
-      " Netherlands",
-      " Sierra Leone",
-      " Switzerland",
-      " Uganda",
-      " Zambia",
-      " Zimbabwe",
-    ],
-    solution:
-      "Common Goal is an organization that brings together the global football community, including players, clubs, and fans, to support social change initiatives. They encourage members to pledge 1% of their income to fund various projects that aim to tackle important issues like racial justice, gender equity, environmental sustainability, mental health, and LGBTQ+ inclusion, in line with the United Nations Sustainable Development Goals. ",
-    pillar: "Social Well-being and Equity",
-    impacts: "",
-  },
+  //   {
+  //     organizationName:
+  //       "Community Empowerment and Development Association (CEDA)",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: [
+  //       "Botswana",
+  //       " Malawi",
+  //       " Namibia",
+  //       " South Africa",
+  //       " Zambia",
+  //     ],
+  //     solution:
+  //       "Community Empowerment and Development Association (CEDA) is a welfare organization which focus on poverty reduction, capacity building, paralegal services and economic empowerment as well as reduction of HIV/AIDS, socio-economic research, advocacy and networking.",
+  //     pillar: "Social Well-being and Equity",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Common Goal (Formerly Street Football World)",
+  //     link: "",
+  //     internationalPresence: "Global North & Global South",
+  //     regionsCovered: [
+  //       "Germany",
+  //       " United States",
+  //       " Ethiopia",
+  //       " Cape Verde",
+  //       " Malawi",
+  //       " South Sudan",
+  //       " Spain",
+  //       " Tunisia",
+  //       " Greece",
+  //       " Jordan",
+  //       " Rwanda",
+  //       " Nigeria",
+  //       " Ghana",
+  //       " Israel",
+  //       " Argentina",
+  //       " United Kingdom",
+  //       " Cameroon",
+  //       " Ireland",
+  //       " Serbia",
+  //       " Denmark",
+  //       " Bosnia",
+  //       " and Herzegovina",
+  //       " Italy",
+  //       " Botswana",
+  //       " Montenegro",
+  //       " Palestine",
+  //       " Poland",
+  //       " South Africa",
+  //       " Colombia",
+  //       " Australia",
+  //       " Romania",
+  //       " United Republic of Tanzania",
+  //       " Austria",
+  //       " Brazil",
+  //       " Burkina",
+  //       " Faso",
+  //       " Burundi",
+  //       " Cambodia",
+  //       " Canada",
+  //       " Congo",
+  //       " Costa Rica",
+  //       " Czech Republic",
+  //       " France",
+  //       " Georgia",
+  //       " Hungary",
+  //       " Iraq",
+  //       " Kenya",
+  //       " Kosovo",
+  //       " Lebanon",
+  //       " Lesotho",
+  //       " Liberia",
+  //       " Portugal",
+  //       " Mali",
+  //       " Mexico",
+  //       " Moldova",
+  //       " Mozambique",
+  //       " Netherlands",
+  //       " Sierra Leone",
+  //       " Switzerland",
+  //       " Uganda",
+  //       " Zambia",
+  //       " Zimbabwe",
+  //     ],
+  //     solution:
+  //       "Common Goal is an organization that brings together the global football community, including players, clubs, and fans, to support social change initiatives. They encourage members to pledge 1% of their income to fund various projects that aim to tackle important issues like racial justice, gender equity, environmental sustainability, mental health, and LGBTQ+ inclusion, in line with the United Nations Sustainable Development Goals. ",
+  //     pillar: "Social Well-being and Equity",
+  //     impacts: "",
+  //   },
   {
     organizationName: "EIT Climate-KIC",
+    link: "https://www.climate-kic.org/",
     internationalPresence: "Global North",
     regionsCovered: ["Germany"],
     solution:
@@ -490,6 +518,7 @@ export const cardData = [
   },
   {
     organizationName: "Amaly Legacy",
+    link: "https://www.amalylegacy.com/",
     internationalPresence: "Global South",
     regionsCovered: ["United Arab Emirates"],
     solution:
@@ -499,29 +528,32 @@ export const cardData = [
   },
   {
     organizationName: "Billion Minds Institute, Inc",
+    link: "https://abillion.org/",
     internationalPresence: "Global North",
     regionsCovered: ["United States"],
     solution: "Mental health & Climate",
     pillar: "",
     impacts: "",
   },
-  {
-    organizationName: "Vessels of Virtue",
-    internationalPresence: "Global North & Global South",
-    regionsCovered: [
-      "South Africa",
-      " Malawi",
-      " Zambia",
-      " Ghana",
-      " Switzerland",
-    ],
-    solution:
-      "Vessels of Virtue a Social Enterprise, is Accelerating The Voice of Empowerment and Transformation to individuals, Corporates and Communities. The organization offers Training & Development for leaders, entrepreneurs & social entrepreneurs through the Academy. It runs Vessels Magazine that profiles leaders, entrepreneurs & social entrepreneurs. Vessels of Virtue runs a foundation for humanitarian work, has a beauty range & recognizes change makers through Vessels Awards.",
-    pillar: "Education and Capacity Building",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "Vessels of Virtue",
+  //     link: "",
+  //     internationalPresence: "Global North & Global South",
+  //     regionsCovered: [
+  //       "South Africa",
+  //       " Malawi",
+  //       " Zambia",
+  //       " Ghana",
+  //       " Switzerland",
+  //     ],
+  //     solution:
+  //       "Vessels of Virtue a Social Enterprise, is Accelerating The Voice of Empowerment and Transformation to individuals, Corporates and Communities. The organization offers Training & Development for leaders, entrepreneurs & social entrepreneurs through the Academy. It runs Vessels Magazine that profiles leaders, entrepreneurs & social entrepreneurs. Vessels of Virtue runs a foundation for humanitarian work, has a beauty range & recognizes change makers through Vessels Awards.",
+  //     pillar: "Education and Capacity Building",
+  //     impacts: "",
+  //   },
   {
     organizationName: "Community Forum",
+    link: "https://www.linkedin.com/in/cofo-management-b5186b205/",
     internationalPresence: "Global South",
     regionsCovered: ["Malawi"],
     solution:
@@ -531,23 +563,26 @@ export const cardData = [
   },
   {
     organizationName: "Te Mana Consortium",
+    link: "https://www.linkedin.com/company/te-mana-consortium/",
     internationalPresence: "Global North",
     regionsCovered: ["New Zealand"],
     solution: "",
     pillar: "",
     impacts: "",
   },
-  {
-    organizationName: "FALA \u2013 impact studio",
-    internationalPresence: "Global South",
-    regionsCovered: ["Brazil"],
-    solution:
-      "FALA - Impact Studio crafts stories that endure, focusing on human rights, environmental preservation, and the principles of democracy. The studio is committed to the belief that every story has the power to inspire change and make a significant impact. With a portfolio that spans original projects and collaborations with various organizations and institutes, FALA - Impact Studio enhances these entities through strategic advice, data analysis, identifying trends, specialized listening, and the production of content and films that align with the goals of the 2030 Agenda.",
-    pillar: " Education and Capacity Building ",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "FALA \u2013 impact studio",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["Brazil"],
+  //     solution:
+  //       "FALA - Impact Studio crafts stories that endure, focusing on human rights, environmental preservation, and the principles of democracy. The studio is committed to the belief that every story has the power to inspire change and make a significant impact. With a portfolio that spans original projects and collaborations with various organizations and institutes, FALA - Impact Studio enhances these entities through strategic advice, data analysis, identifying trends, specialized listening, and the production of content and films that align with the goals of the 2030 Agenda.",
+  //     pillar: " Education and Capacity Building ",
+  //     impacts: "",
+  //   },
   {
     organizationName: "Yunus Environment Hub",
+    link: "https://yunusenvironmenthub.com/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
       "Kenya",
@@ -566,17 +601,19 @@ export const cardData = [
     impacts:
       "- 28 IImplemented Programmes in 32 countries across 4 continents in 2022",
   },
-  {
-    organizationName: "",
-    internationalPresence: "Global North",
-    regionsCovered: ["United States"],
-    solution: "",
-    pillar: "",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "",
+  //     link: "",
+  //     internationalPresence: "Global North",
+  //     regionsCovered: ["United States"],
+  //     solution: "",
+  //     pillar: "",
+  //     impacts: "",
+  //   },
   {
     organizationName:
-      "RASALAO-CI (R\u00e9seau d'Action Sur les Armes L\u00e9g\u00e8res en Afrique de l'Ouest",
+      "RASALAO-CI (Réseau d'Action Sur les Armes Légères en Afrique de l'Ouest",
+    link: "",
     internationalPresence: "Global South",
     regionsCovered: ["Ivory Coast"],
     solution:
@@ -586,6 +623,7 @@ export const cardData = [
   },
   {
     organizationName: "Movilizatorio",
+    link: "https://www.movilizatorio.org/",
     internationalPresence: "Global North",
     regionsCovered: ["Argentina", " Colombia", " Mexico"],
     solution:
@@ -595,6 +633,7 @@ export const cardData = [
   },
   {
     organizationName: "Improve Your Society Organization (IYSO)",
+    link: "https://www.iysoyemen.org/",
     internationalPresence: "Global South",
     regionsCovered: ["Yemen"],
     solution:
@@ -605,6 +644,7 @@ export const cardData = [
   {
     organizationName:
       "Permaculture, Education, Action and Community Empowerment (PEACE) Foundation",
+    link: "https://www.linkedin.com/in/peace-foundation-bundibugyo-17841a146/?originalSubdomain=ug",
     internationalPresence: "Global South",
     regionsCovered: ["Uganda"],
     solution:
@@ -614,6 +654,7 @@ export const cardData = [
   },
   {
     organizationName: "Development Alternatives",
+    link: "https://www.devalt.org/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -621,17 +662,19 @@ export const cardData = [
     pillar: "Economic Development\n&\nEnvironmental Sustainability",
     impacts: "- More than 21,130 Livelihoods of artisans & farmers supported",
   },
-  {
-    organizationName: "Indian Micro Enterprises Development Foundation",
-    internationalPresence: "Global South",
-    regionsCovered: ["India "],
-    solution:
-      "The Indian Micro Enterprises Development Foundation (IMEDF) operates under the Development Alternatives Group with the goal of fostering a supportive environment for green and inclusive entrepreneurship. To this end, IMEDF focuses on:\r\n\r\n- Innovative Business Models: They facilitate the transfer and adaptation of innovative technology-based business models.\r\n- Financial Support: They assist entrepreneurs in obtaining credit and finance linkages.\r\n- Capacity Building: They offer training for business management, including technical skills for business planning and operations.\r\n- Market Integration: They help integrate products and services into local and broader market channels.\r\n\r\nIMEDF serves as a nexus, connecting entrepreneurs with technology sources, experts, investors, and consumers to fulfill essential requirements for technology, skills, capital, and market access. Their support extends to various forms of social enterprises, whether individual, community-based, aggregated services, franchised, or decentralized micro-enterprises.",
-    pillar: "Economic Development",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "Indian Micro Enterprises Development Foundation",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["India "],
+  //     solution:
+  //       "The Indian Micro Enterprises Development Foundation (IMEDF) operates under the Development Alternatives Group with the goal of fostering a supportive environment for green and inclusive entrepreneurship. To this end, IMEDF focuses on:\r\n\r\n- Innovative Business Models: They facilitate the transfer and adaptation of innovative technology-based business models.\r\n- Financial Support: They assist entrepreneurs in obtaining credit and finance linkages.\r\n- Capacity Building: They offer training for business management, including technical skills for business planning and operations.\r\n- Market Integration: They help integrate products and services into local and broader market channels.\r\n\r\nIMEDF serves as a nexus, connecting entrepreneurs with technology sources, experts, investors, and consumers to fulfill essential requirements for technology, skills, capital, and market access. Their support extends to various forms of social enterprises, whether individual, community-based, aggregated services, franchised, or decentralized micro-enterprises.",
+  //     pillar: "Economic Development",
+  //     impacts: "",
+  //   },
   {
     organizationName: "Technology and Action for Rural Advancement",
+    link: "https://www.tara.in/index",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -642,6 +685,7 @@ export const cardData = [
   },
   {
     organizationName: "Research Fellow, Imperial College London",
+    link: "",
     internationalPresence: "",
     regionsCovered: [""],
     solution: "Academic expertise in food security solutions in Africa",
@@ -650,6 +694,7 @@ export const cardData = [
   },
   {
     organizationName: "Prolific Innovations Limited",
+    link: "https://www.prolificinnovationsltd.com/",
     internationalPresence: "Global South",
     regionsCovered: ["Uganda"],
     solution:
@@ -658,33 +703,37 @@ export const cardData = [
     impacts:
       "- The company has already made a meaningful impact by supporting 300 farmers through the provision of agricultural inputs",
   },
-  {
-    organizationName: "Pak Mission Society",
-    internationalPresence: "Global South",
-    regionsCovered: ["Pakistan"],
-    solution: "",
-    pillar: "",
-    impacts: "",
-  },
-  {
-    organizationName: "Baithak - Challenging Taboos",
-    internationalPresence: "Global South",
-    regionsCovered: ["Pakistan"],
-    solution:
-      "Baithak is a youth and women-led organization focused on gender justice, including reproductive health and rights for girls and women in rural Pakistan, especially in rural Sindh. They engage in education, capacity building, and advocacy to address issues like menstrual hygiene management, gender-based violence, family planning, sexual and reproductive health and rights (SRHR), and climate and gender justice. Baithak aims to create a world where every woman has the freedom to exercise bodily autonomy and every gender has equal access to resources and opportunities",
-    pillar: "Social Well-being and Equity",
-    impacts: "",
-  },
-  {
-    organizationName: "Indigenous Scientist",
-    internationalPresence: "",
-    regionsCovered: [""],
-    solution: "",
-    pillar: "",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "Pak Mission Society",
+  //     link: "https://www.linkedin.com/company/pak-mission-society/",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["Pakistan"],
+  //     solution: "",
+  //     pillar: "",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Baithak - Challenging Taboos",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["Pakistan"],
+  //     solution:
+  //       "Baithak is a youth and women-led organization focused on gender justice, including reproductive health and rights for girls and women in rural Pakistan, especially in rural Sindh. They engage in education, capacity building, and advocacy to address issues like menstrual hygiene management, gender-based violence, family planning, sexual and reproductive health and rights (SRHR), and climate and gender justice. Baithak aims to create a world where every woman has the freedom to exercise bodily autonomy and every gender has equal access to resources and opportunities",
+  //     pillar: "Social Well-being and Equity",
+  //     impacts: "",
+  //   },
+  //   {
+  //     organizationName: "Indigenous Scientist",
+  //     link: "",
+  //     internationalPresence: "",
+  //     regionsCovered: [""],
+  //     solution: "",
+  //     pillar: "",
+  //     impacts: "",
+  //   },
   {
     organizationName: "Keystone Foundation",
+    link: "https://keystone-foundation.org/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -694,6 +743,7 @@ export const cardData = [
   },
   {
     organizationName: "Learning Planet Institute",
+    link: "",
     internationalPresence: "Global North",
     regionsCovered: ["Switzerland"],
     solution:
@@ -703,6 +753,7 @@ export const cardData = [
   },
   {
     organizationName: "High-Level Climate Champions",
+    link: "https://climatechampions.unfccc.int/",
     internationalPresence: "Global North",
     regionsCovered: ["Germany"],
     solution:
@@ -713,6 +764,7 @@ export const cardData = [
   {
     organizationName:
       "Society for the Promotion of Area Resource Centres (SPARC)",
+    link: "https://www.sparcindia.org/",
     internationalPresence: "Global South",
     regionsCovered: ["India "],
     solution:
@@ -722,6 +774,7 @@ export const cardData = [
   },
   {
     organizationName: "Sekem Holding",
+    link: "https://sekem.com/en/index/",
     internationalPresence: "Global South",
     regionsCovered: ["Egypt"],
     solution:
@@ -731,6 +784,7 @@ export const cardData = [
   },
   {
     organizationName: "Skoll Foundation",
+    link: "https://skoll.org/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
       "Afghanistan",
@@ -751,6 +805,7 @@ export const cardData = [
   },
   {
     organizationName: "The World Bank",
+    link: "https://www.linkedin.com/company/the-world-bank/",
     internationalPresence: "",
     regionsCovered: [""],
     solution:
@@ -760,6 +815,7 @@ export const cardData = [
   },
   {
     organizationName: "Sharing Strategies",
+    link: "",
     internationalPresence: "Global North",
     regionsCovered: ["United Kingdom"],
     solution:
@@ -769,6 +825,7 @@ export const cardData = [
   },
   {
     organizationName: "Trust, Accountability and Inclusion Collaborative",
+    link: "https://www.sharingstrategies.org/",
     internationalPresence: "Global North",
     regionsCovered: ["United States"],
     solution:
@@ -778,6 +835,7 @@ export const cardData = [
   },
   {
     organizationName: "Freebee",
+    link: "https://ridefreebee.com/",
     internationalPresence: "Global North",
     regionsCovered: ["United States"],
     solution:
@@ -787,6 +845,7 @@ export const cardData = [
   },
   {
     organizationName: "Chartham House",
+    link: "https://www.chathamhouse.org/",
     internationalPresence: "Global South",
     regionsCovered: ["Zambia"],
     solution:
@@ -797,6 +856,7 @@ export const cardData = [
   },
   {
     organizationName: "World Economic Forum",
+    link: "https://www.weforum.org/",
     internationalPresence: "Global North",
     regionsCovered: [""],
     solution:
@@ -806,6 +866,7 @@ export const cardData = [
   },
   {
     organizationName: "Build Change",
+    link: "https://buildchange.org/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
       "China",
@@ -824,6 +885,7 @@ export const cardData = [
   },
   {
     organizationName: "Friendship",
+    link: "https://friendship.ngo/",
     internationalPresence: "Global South",
     regionsCovered: ["Bangladesh"],
     solution:
@@ -832,19 +894,60 @@ export const cardData = [
     impacts:
       "- 330,000+ beneficiaries were covered through Inclusive Citizenship programmes",
   },
-  {
-    organizationName: "",
-    internationalPresence: "Global South",
-    regionsCovered: ["Hong Kong"],
-    solution: "",
-    pillar: "",
-    impacts: "",
-  },
+  //   {
+  //     organizationName: "",
+  //     link: "",
+  //     internationalPresence: "Global South",
+  //     regionsCovered: ["Hong Kong"],
+  //     solution: "",
+  //     pillar: "",
+  //     impacts: "",
+  //   },
   {
     organizationName: "Canopy",
+    link: "https://canopyplanet.org/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "Argentina Australia Bangladesh Bhutan Brazil Burkina Faso Cambodia Canada Chile the Democratic Republic of the Congo Cote d'Ivoire Ecuador Egypt Guatemala Haiti India Indonesia Kenya Lao People's Democratic Republic Madagascar Malawi Mexico Mozambique Nepal Nicaragua Paraguay Peru Philippines Rwanda Senegal Singapore South Africa Sri Lanka United Republic of Tanzania Togo Uganda United States Uruguay Vietnam Zambia",
+      "Argentina",
+      " Australia",
+      " Bangladesh",
+      " Bhutan",
+      " Brazil",
+      " Burkina",
+      " Faso",
+      " Cambodia",
+      " Canada",
+      " Chile",
+      " The Democratic Republic of the Congo",
+      " Cote d'Ivoire",
+      " Ecuador",
+      " Egypt",
+      " Guatemala",
+      " Haiti",
+      " India",
+      " Indonesia",
+      " Kenya",
+      " Lao",
+      " People's Democratic Republic Madagascar",
+      " Malawi",
+      " Mexico",
+      " Mozambique",
+      " Nepal",
+      " Nicaragua",
+      " Paraguay",
+      " Peru",
+      " Philippines",
+      " Rwanda",
+      " Senegal",
+      " Singapore",
+      " South Africa",
+      " Sri Lanka",
+      " United Republic of Tanzania",
+      " Togo",
+      " Uganda",
+      " United States",
+      " Uruguay. Vietnam",
+      " Zambia",
     ],
     solution:
       "Canopy is an award winning environmental nonprofit organization dedicated to protecting the world\u2019s forests, species and climate.\n\nCanopy\u2019s story is rooted in a passion to protect the endangered, carbon-rich forests around the world from destruction. Canopy\u2019s approach focuses on creating solutions and working together with the largest buyers of pulp and paper products to achieve a much greater impact.\n\nThey understand that business leaders can be powerful forces for environmental change. They work with companies to craft sustainable purchasing guidelines and with partners to develop permanent and systemic solutions that protect forests.\n\nStarted over a decade ago as Markets Initiatives, Canopy has grown and attracted a group of passionate environmental and social justice activists.",
@@ -854,9 +957,17 @@ export const cardData = [
   },
   {
     organizationName: "Bioregional",
+    link: "https://www.bioregional.com/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "Australia Canada Denmark Rwanda South Africa United Republic of Tanzania United Kingdom United States",
+      "Australia",
+      " Canada",
+      " Denmark",
+      " Rwanda",
+      " South Africa",
+      " United Republic of Tanzania",
+      " United Kingdom",
+      " United States",
     ],
     solution:
       "BioRegional champions sustainable solutions that promote healthier, happier communities across the globe. They focus on practical implementation of sustainability principles through the One Planet Living framework, which they co-developed. This approach is used worldwide to help organizations, cities, and regions deliver ambitious sustainability goals effectively. By partnering with developers, businesses, and local governments, BioRegional develops and demonstrates eco-friendly solutions in areas like housing, renewable energy, and sustainable commerce to drive systemic change towards a more sustainable future.",
@@ -865,8 +976,9 @@ export const cardData = [
   },
   {
     organizationName: "Nuru Energy",
+    link: "https://www.linkedin.com/company/nuru-energy/?originalSubdomain=rw",
     internationalPresence: "Global South",
-    regionsCovered: ["Burundi Rwanda"],
+    regionsCovered: ["Burundi", " Rwanda"],
     solution:
       "Nuru Energy is a social enterprise that provides clean energy access to households living below the poverty line and in villages without electricity. Nuru's unique off-grid , pay-as-you-go (PAYG) recharging platform using both solar and human power to recharge any USB-chargeable device including portable LED lights and mobile phones. Nuru deploys its technology via Village Level Entrepreneurs (VLEs), who distribute LED lamps, mobile phones and other devices in their village and use the Nuru Energy platform to operate income-generating recharging businesses.",
     pillar: "Environmental Sustainability",
@@ -874,6 +986,7 @@ export const cardData = [
   },
   {
     organizationName: "Carbon Ceres",
+    link: "https://www.linkedin.com/company/carbon-ceres/",
     internationalPresence: "Global South",
     regionsCovered: ["Nigeria"],
     solution:
@@ -883,8 +996,9 @@ export const cardData = [
   },
   {
     organizationName: "Solar Sister",
+    link: "https://solarsister.org/",
     internationalPresence: "Global South",
-    regionsCovered: ["Nigeria Republic of Tanzania"],
+    regionsCovered: ["Nigeria", " Republic of Tanzania"],
     solution:
       "Solar Sister is an organization that invests in women's clean energy businesses in off-grid communities in Africa. They equip women with the skills and resources necessary to distribute solar lamps, mobile charging solutions, and clean cookstoves, thereby transforming their communities. Solar Sister combines the breakthrough potential of solar technology with a deliberately woman-centered direct sales network.",
     pillar: "Empowerment and Economic Development",
@@ -892,8 +1006,15 @@ export const cardData = [
   },
   {
     organizationName: "Lifeline Energy",
+    link: "https://www.lifelineenergy.org/",
     internationalPresence: "Global South",
-    regionsCovered: ["Kenya Mozambique Sierra Leone South Sudan Zambia"],
+    regionsCovered: [
+      "Kenya",
+      " Mozambique",
+      " Sierra Leone",
+      " South Sudan",
+      " Zambia",
+    ],
     solution:
       "Lifeline Energy is a non-profit social enterprise specializing in the design, manufacture, and distribution of power-independent MP3 players and radios for humanitarian use across sub-Saharan Africa. With over 20 years of experience, they provide robust, solar and wind-up powered devices that bring educational and informational content to remote areas lacking electricity. Their products, including the Lifeplayer MP3, can be pre-loaded with extensive educational material, creating classrooms anywhere, anytime. Recognized as a 501(c) (3) US charity and South African public benefit organization, Lifeline Energy relies on a diverse funding mix to support its mission of accessible education and information.",
     pillar: "Empowerment and Economic Development ",
@@ -901,12 +1022,9 @@ export const cardData = [
   },
   {
     organizationName: "Spring Impact",
+    link: "https://www.springimpact.org/",
     internationalPresence: "",
-    regionsCovered: [
-      "Spring Impact operates globally",
-      " with offices in the UK (London) and the US (San Francisco)",
-      " and a strategic partnership in Australia",
-    ],
+    regionsCovered: ["United Kingdom", " United States", " Australia"],
     solution:
       "Spring Impact is a not-for-profit organization that assists other organizations in scaling their social impact. They focus on working with groups that have already demonstrated effective solutions to social issues. Spring Impact offers strategic consultancy to help these organizations expand and replicate their impact through careful planning, implementation, and resource linkage. They provide a structured approach to scaling, which includes methodologies for social replication and a series of programs aimed at enhancing the capabilities of these organizations to increase their reach and effectiveness. Their work spans multiple sectors, integrating both commercial and social expertise to create sustainable impact.",
     pillar: "Empowerment and Economic Development ",
@@ -915,6 +1033,7 @@ export const cardData = [
   },
   {
     organizationName: "EARTH51",
+    link: "https://earth51.com/",
     internationalPresence: "",
     regionsCovered: [""],
     solution:
@@ -924,9 +1043,18 @@ export const cardData = [
   },
   {
     organizationName: "Groupe SOS",
+    link: "https://www.groupe-sos.org/en/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "Algeria Angola Argentina Australia Austria Bahrain Bangladesh Belarus Belgium",
+      "Algeria",
+      " Angola",
+      " Argentina",
+      " Australia",
+      " Austria",
+      " Bahrain",
+      " Bangladesh",
+      " Belarus",
+      " Belgium",
     ],
     solution:
       "GROUPE SOS, founded in 1984, has evolved into Europe's leading social enterprise, actively addressing social exclusion in various forms. With a robust presence across 44 countries and leveraging 18,000 employees, the organization operates 550 establishments generating a turnover of \u20ac950 million annually. GROUPE SOS is engaged in a wide array of sectors including youth, employment, health, seniors, culture, ecological transition, and international action. The organization is committed to social innovation, using it as a cornerstone to develop sustainable economic activities that simultaneously yield strong social impacts. Their operations extend to providing essential services such as education, housing, social inclusion, occupational integration, health care, and elderly support. GROUPE SOS also champions cultural accessibility and advocates for a new paradigm in agriculture and ecology, underpinning their commitment to meeting societal needs through innovative, synergistic solutions.",
@@ -936,9 +1064,17 @@ export const cardData = [
   },
   {
     organizationName: "Tech Matters",
+    link: "https://techmatters.org/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "United States Canada Chile Hungary Malta Malawi Zambia South Africa Thailand",
+      "United States",
+      " Canada",
+      " Chile Hungary",
+      " Malta",
+      " Malawi",
+      " Zambia",
+      " South Africa",
+      " Thailand",
     ],
     solution:
       "Tech Matters is a nonprofit organization that leverages technology to enhance the effectiveness of the social sector. They focus on developing and providing tech solutions that address social issues effectively and efficiently. Their projects include Aselo, which improves the capabilities of crisis response helplines, and Terraso, which supports sustainable local community initiatives worldwide through better data and software tools. Tech Matters collaborates with various leaders and organizations to foster social change through innovative technology use, offering support from conception to execution of tech-based solutions\u200b",
@@ -947,6 +1083,7 @@ export const cardData = [
   },
   {
     organizationName: "Play Verto",
+    link: "https://www.playverto.com/",
     internationalPresence: "Global North",
     regionsCovered: ["United Kingdom"],
     solution:
@@ -956,6 +1093,7 @@ export const cardData = [
   },
   {
     organizationName: "Institute for Ecological Research - IPE",
+    link: "https://ipe.org.br/",
     internationalPresence: "Global South",
     regionsCovered: ["Brazil"],
     solution:
@@ -965,6 +1103,7 @@ export const cardData = [
   },
   {
     organizationName: "Swayam Shikshan Prayog",
+    link: "https://swayamshikshanprayog.org/",
     internationalPresence: "Global South",
     regionsCovered: ["India"],
     solution:
@@ -975,9 +1114,19 @@ export const cardData = [
   },
   {
     organizationName: "Echoing Green",
+    link: "https://echoinggreen.org/",
     internationalPresence: "Global South",
     regionsCovered: [
-      "Afghanistan Antigua and Barbuda Azerbaijan Bangladesh Bhutan Botswana Brazil Cambodia Central African Republic",
+      "Afghanistan",
+      " Antigua and Barbuda",
+      " Azerbaijan",
+      " Bangladesh",
+      " Bhutan",
+      " Botswana",
+      " Brazil",
+      " Cambodia",
+      " Central",
+      " African Republic",
     ],
     solution:
       "Echoing Green supports social entrepreneurs through funding, mentorship, and strategic support, focusing on those who advance racial equity and innovate solutions for global issues. They facilitate a fellowship program to nurture emerging leaders and provide a platform for their ideas to foster positive change. ",
@@ -986,6 +1135,7 @@ export const cardData = [
   },
   {
     organizationName: "Deep & Meaningful Consulting",
+    link: "https://www.deepandmeaningful.co/",
     internationalPresence: "",
     regionsCovered: [""],
     solution:
@@ -996,9 +1146,18 @@ export const cardData = [
   },
   {
     organizationName: "Bemari",
+    link: "https://www.bemari.co.uk/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "Netherlands Malaysia Thailand Peru Poland Nigeria Russian Federation United Kingdom Czech Republic",
+      "Netherlands",
+      " Malaysia",
+      " Thailand",
+      " Peru",
+      " Poland",
+      " Nigeria",
+      " Russian",
+      " United Kingdom",
+      " Czech Republic",
     ],
     solution:
       "Bemari is a sustainability consulting firm that helps organizations transition to sustainable and regenerative business practices. They focus on climate action, helping businesses set science-based targets, decarbonize, and embed climate-aware thinking throughout their operations. Bemari works to facilitate systemic changes, avoiding greenwashing, and enhancing corporate resilience against climate risks.",
@@ -1007,8 +1166,9 @@ export const cardData = [
   },
   {
     organizationName: "Bridge For Billions",
+    link: "https://www.bridgeforbillions.org/",
     internationalPresence: "Global North & Global South",
-    regionsCovered: ["Spain United States Guatemala Kenya"],
+    regionsCovered: ["Spain", " United States", " Guatemala", " Kenya"],
     solution:
       "Bridge for Billions operates as a global incubator that supports early-stage entrepreneurs through development programs, offering mentorship and access to an online platform to refine their business ideas. They aim to foster entrepreneurship to drive inclusive and sustainable economic growth worldwide.",
     pillar: "Empowerment and Economic Development",
@@ -1016,9 +1176,18 @@ export const cardData = [
   },
   {
     organizationName: "Designathon Works",
+    link: "https://www.designathonworks.com/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "Australia Belgium Canada China Colombia Cote d'Ivoire Germany Ghana India",
+      "Australia",
+      " Belgium",
+      " Canada",
+      " China",
+      " Colombia",
+      " Cote d'Ivoire",
+      " Germany",
+      " Ghana",
+      " India",
     ],
     solution:
       "Designathon Works empowers children to design solutions for global challenges, integrating local contexts with broader issues like sustainability and citizenship. They utilize designathons to foster creativity and problem-solving, aligning with global initiatives like the Sustainable Development Goals. This approach nurtures engaged, innovative young thinkers who contribute to solving significant world problems.",
@@ -1027,6 +1196,7 @@ export const cardData = [
   },
   {
     organizationName: "Hatch Colab",
+    link: "https://thehub.io/funding/hatch-colab",
     internationalPresence: "Global North ",
     regionsCovered: ["Switzerland"],
     solution:
@@ -1036,6 +1206,7 @@ export const cardData = [
   },
   {
     organizationName: "The Weaving Lab",
+    link: "https://weavinglab.org/",
     internationalPresence: "Global North ",
     regionsCovered: ["Netherlands"],
     solution:
@@ -1045,9 +1216,17 @@ export const cardData = [
   },
   {
     organizationName: "be.modos",
+    link: "https://www.linkedin.com/company/be-modos/about/",
     internationalPresence: "Global North & Global South",
     regionsCovered: [
-      "Albania Austria Finland Kenya Kosovo South Africa Switzerland Gambia",
+      "Albania",
+      " Austria",
+      " Finland",
+      " Kenya",
+      " Kosovo",
+      " South Africa",
+      " Switzerland",
+      " Gambia",
     ],
     solution:
       "be.modos is an impact-oriented social enterprise that aims to improve the well-being of people and the environment through various operations that have tangible results.",
@@ -1056,8 +1235,9 @@ export const cardData = [
   },
   {
     organizationName: "WaterEquity",
+    link: "https://waterequity.com/",
     internationalPresence: "Global South",
-    regionsCovered: ["Cambodia India Indonesia Philippines"],
+    regionsCovered: ["Cambodia", " India", " Indonesia", " Philippines"],
     solution:
       "WaterEquity is an impact investment asset manager focused on mobilizing private investment for water and sanitation sectors in emerging and frontier markets. They aim to provide safe water and sanitation to low-income communities, enhancing resilience against climate impacts while offering financial returns to investors. Their initiatives are aligned with the Sustainable Development Goals, particularly SDG 6, which targets clean water and sanitation for all.",
     pillar: "Environmental Sustainability",
@@ -1066,6 +1246,7 @@ export const cardData = [
   },
   {
     organizationName: "Toilets for All",
+    link: "https://www.toilets4all.com/en/home/",
     internationalPresence: "Global South",
     regionsCovered: ["Kenya"],
     solution:
@@ -1076,6 +1257,7 @@ export const cardData = [
   {
     organizationName:
       "International Center and Climate Change and Development (ICCCAD)",
+    link: "https://icccad.net/",
     internationalPresence: "Global South",
     regionsCovered: ["Bangladesh"],
     solution:
